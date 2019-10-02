@@ -1,6 +1,6 @@
 {
   "name": "react-ladda",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "description": "React wrapper for Ladda buttons",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,8 @@
     "test": "./node_modules/.bin/mocha test/.setup.js test/**/*-test.jsx",
     "lint": "./node_modules/.bin/eslint src/**/* test/**/*",
     "build": "npm run lint && ./node_modules/.bin/babel src --out-dir dist",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
